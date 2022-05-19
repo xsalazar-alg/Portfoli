@@ -1,30 +1,99 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 body{
-  background-color: navy;
+  background-image:url(img/concrete-texture.png);
 }
 
 #cabecera{
-  width: auto;
-  height: 100px;
-  background-color: gray;
+  width: 100%;
+  height: 140px;
+  background-color: #EAE5E5;
+  margin:0;
+
 }
 
 .contenedor{
-  background-color: green;
-  width:900px;
-  height: 700px;
-  margin: 0 auto;
+  background-color: none;
+  width:90%;
+  height: 900px;
+  margin: 40px auto;
+  padding:1%;
 }
 
-.boletes{
-  width:100px;
-  height: 100px;
+.cont-u{
+  height: 170px;
   background-color: white;
-  border-radius: 50%;
+  text-align: center;
+  line-height: 170px;
+  width:96%;
+  margin:1%;
+  padding:1%;
   float: left;
 }
+
 
 div{
   line-height: 100px;
   margin-left: 90px;
   font-size: 40px
+}
+
+h1{
+  text-align:center;
+  font-size:60px;
+  color:#900C3F;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bolder;
+}
+
+h2{
+  text-align:center;
+  font-size:25px;
+  color:#6D0E16;
+  font-family: 'Source Serif 4', serif;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 0px;
+}
+
+
+ul{
+  list-style-type:none;
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+li a{
+  display:block;
+  padding:10px 20px;
+  float:left;
+  color:white;
+  margin: 0 auto;
+  background-color:#900C3F;
+  text-decoration:none;
+}
+
+p{
+  text-align:center;
+  font-size:90px;
+  color:#900C3F;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 100;
+  height:100%;
+}
+
+#u:hover{
+  background-image:url('img/primergif.gif');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#u p:hover{
+  color: white;
 }
