@@ -1,0 +1,229 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+background: linear-gradient(180deg, rgba(21,28,68,1) 8%, rgba(107,96,147,1) 64%, rgba(177,110,106,1) 84%, rgba(255,125,61,1) 100%);
+background-repeat: no-repeat;
+height: 850px;
+width: auto;
+}
+
+#suelo{
+  width: 500;
+  height: 280px;
+  background: linear-gradient(180deg, rgba(143,148,73,1) 5%, rgba(90,116,66,1) 28%, rgba(12,28,7,1) 91%);
+  position: relative;
+  top: 700px;
+}
+
+#moon{
+  width: 130px;
+  height: 130px;
+  background-color: #E8E8E8;
+  position: absolute;
+  top: 130px;
+  left: 800px;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: luna 5s infinite linear;
+}
+
+@keyframes luna {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.bolita1{
+  width: 50px;
+  height: 50px;
+  background-color: #BDBDBD;
+  position: relative;
+  border-radius: 50%;
+  top: 20px;
+  left: 18px;
+}
+
+.bolita2{
+  width: 30px;
+  height: 30px;
+  background-color: #CDCDCD;
+  position: relative;
+  border-radius: 50%;
+  top: 25px;
+  left: 50px;
+}
+
+.bolita3{
+  width: 15px;
+  height: 15px;
+  background-color: #D3D3D3;
+  position: relative;
+  border-radius: 50%;
+  top: 20px;
+  left: 10px;
+}
+
+.bolita4{
+  width: 40px;
+  height: 40px;
+  background-color: #CDCDCD;
+  position: relative;
+  border-radius: 50%;
+  top: -85px;
+  left: 105px;
+}
+
+.bolita5{
+  width: 15px;
+  height: 15px;
+  background-color: #D3D3D3;
+  position: relative;
+  border-radius: 50%;
+  top: -75px;
+  left: 100px;
+}
+
+#casa1{
+  width: 350px;
+  height: 300px;
+  background-color: #F8F8F8;
+  clip-path: polygon(79% 30%, 13% 7%, 13% 100%, 79% 100%);
+  position: relative;
+  top:-240px;
+  left: 300px;
+}
+
+#techo{
+  width: 350px;
+  height: 300px;
+  background-color: #BCBCBC;
+  clip-path: polygon(81% 30%, 11% 7%, 11% 12%, 81% 35%);
+  position: relative;
+  top:-550px;
+  left: 300px;
+}
+
+.ventana{
+  width: 280px;
+  height: 280px;
+  clip-path: polygon(70% 22%, 13% 7%, 13% 66%, 70% 66%);
+  background-color: #F3CF9F;
+  position: relative;
+  top:60px;
+  left:46px;
+}
+
+#columna{
+  width: 25px;
+  height: 140px;
+  background-color: #F8F8F8;
+  position: relative;
+  top:-680px;
+  left: 200px;
+}
+
+#casa2{
+  width: 140px;
+  height: 50px;
+  background-color: #F8F8F8;
+  position: relative;
+  top:-810px;
+  left: 210px;
+}
+
+#techo2{
+  width: 152.5px;
+  height: 14px;
+  background-color: #BCBCBC;
+  position: relative;
+  top:-870px;
+  left: 193px;
+}
+
+#molino{
+  width: 16px;
+  height: 140px;
+  clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%);
+  background-color: #B2B2B2;
+  position: relative;
+  top:-940px;
+  left: 900px;
+}
+
+#molinito{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #B2B2B2;
+  position: absolute;
+  top: -150px;
+  left: 898px;
+  animation: molinito 9s infinite linear;
+}
+
+
+.helice{
+  width: 80px;
+  height: 100px;
+  background-color: #B2B2B2;
+  clip-path: polygon(50% 1%, 40% 90%, 50% 100%, 60% 90%);
+  position: relative;
+}
+
+#h1{
+  top: -100px;
+  left: -30px;
+}
+
+#h2{
+  top: -80px;
+  left: -30px;
+  transform: rotate(-180deg);
+}
+
+#h3{
+  top: -240px;
+  left: 30px;
+  transform: rotate(90deg);
+}
+
+#h4{
+  top: -340px;
+  left: -90px;
+  transform: rotate(-90deg);
+}
+
+@keyframes molinito {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+
+
+#molino2{
+  width: 16px;
+  height: 140px;
+  clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%);
+  background-color: #B2B2B2;
+  position: relative;
+  top:-1080px;
+  left: 1200px;
+}
+
+#molinito2{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #B2B2B2;
+  position: absolute;
+  top: -150px;
+  left: 1198px;
+  animation: molinito 2s infinite linear;
+}
+
+@keyframes molinito2 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}

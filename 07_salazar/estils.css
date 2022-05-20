@@ -1,0 +1,57 @@
+body {
+  background-color:lightblue;
+}
+
+div {
+  background-color:#FFFFFF;
+  width:200px;
+  height:200px;
+  margin:10px;
+  float:left;
+  background-image:url(numero2.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+div:hover{
+  background-image: url(numero3.jpeg);
+  background-size:cover;
+}
+
+#boton{
+  border-radius:50%;
+  background:none;
+  background-color:black;
+  text-align: center;
+  line-height:200px;
+  font-size:22px;
+  font-family:sans-serif;
+  font-weight:bold;
+  float:right;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+a:link{
+  text-decoration:none;
+  color: white;
+  -webkit-text-stroke:1px black;
+}
+
+a:visited{
+  color: white;
+}
+
+a:active{
+  color: navy;
+}
+
+a:hover{
+  color: red;
+}
+
+#boton:hover{
+  background-image: url(numero1.jpg);
+  background-size:cover;
+}

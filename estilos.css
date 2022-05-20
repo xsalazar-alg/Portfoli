@@ -23,6 +23,10 @@ body{
   padding:1%;
 }
 
+.contenedor a{
+  text-decoration: none;
+}
+
 .cont-u{
   height: 230px;
   background-color: white;
@@ -135,9 +139,18 @@ p{
     height: 200px;
     background-color: white;
     text-align: center;
-    line-height: 170px;
-    width:96%;
+    line-height: 200px;
+    width:46%;
     margin:1%;
     padding:1%;
     float: left;
   }
+
+  p{
+    text-align:center;
+    font-size:60px;
+    color:#900C3F;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 100;
+    height:100%;
+}
