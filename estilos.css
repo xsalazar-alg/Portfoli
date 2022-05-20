@@ -24,15 +24,16 @@ body{
 }
 
 .cont-u{
-  height: 170px;
+  height: 230px;
   background-color: white;
   text-align: center;
-  line-height: 170px;
+  line-height: 230px;
   width:96%;
   margin:1%;
   padding:1%;
-  float: left;
 }
+
+
 
 
 div{
@@ -94,6 +95,49 @@ p{
   background-position: center;
 }
 
+#tres:hover{
+  background-image:url('img/segundogif.gif');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#cuatre:hover{
+  background-image:url('img/tercergif.gif');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#cinc:hover{
+  background-image:url('img/cuartogif.gif');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 #u p:hover{
   color: white;
 }
+#tres p:hover{
+  color: white;
+}
+#cuatre p:hover{
+  color: white;
+}
+#cinc p:hover{
+  color: white;
+}
+
+@media only screen and (max-width: 770px) {
+  .cont-u{
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    line-height: 170px;
+    width:96%;
+    margin:1%;
+    padding:1%;
+    float: left;
+  }
